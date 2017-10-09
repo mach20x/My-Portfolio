@@ -1,0 +1,14 @@
+img {
+  width: 700px;
+  display: block;
+  margin: 0 auto;
+}
+
+h4 {
+  text-align: center;
+}
+/*@media screen and (min-width: 768px){
+  #projects div{
+    float: left;
+    width: 210px;
+    margin: 5px;*/
