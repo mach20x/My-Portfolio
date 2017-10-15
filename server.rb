@@ -2,5 +2,5 @@ require "sinatra"
 
 
 get "/" do
-  File.read(File.join('public', 'profile.html'))
+  send_file File.join(settings.public_folder, 'index.html')
 end
