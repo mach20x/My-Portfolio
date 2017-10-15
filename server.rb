@@ -1,6 +1,7 @@
 require "sinatra"
 
+set :public_folder, 'public'
 
 get "/" do
-  send_file File.join(settings.public.profile.html, 'index.html')
+  redirect '/index.html'
 end
