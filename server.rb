@@ -3,5 +3,5 @@ require "sinatra"
 set :public_folder, 'public'
 
 get "/" do
-  redirect '/profile.html'
+  redirect '/public/profile.html'
 end
